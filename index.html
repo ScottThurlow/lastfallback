@@ -872,9 +872,9 @@ button.share-card { cursor: pointer; font-family: inherit; }
     <h2 class="section-title reveal" id="latest-post-heading">Updates</h2>
     <div class="latest-post-block reveal">
       <!-- LATEST-POST:START -->
-      <h3 class="latest-post-title"><a href="/updates/the-portland-problem">The Portland problem is real. Oregon has already voted on it twice.</a></h3>
-      <p class="latest-post-date"><time datetime="2026-08-21">August 21, 2026</time></p>
-      <p class="latest-post-desc">If Washington ends its clock change and Oregon doesn't, Clark County goes an hour off from Portland. Oregon's own legislature has voted twice to close that gap.</p>
+      <h3 class="latest-post-title"><a href="/updates/the-next-one-could-be-the-last">Today was not Washington's last clock change. The next fall back could be.</a></h3>
+      <p class="latest-post-date"><time datetime="2026-11-01">November 1, 2026</time></p>
+      <p class="latest-post-desc">Washington fell back this morning. Western Canada did not. If the Legislature acts in 2027, November 7, 2027 is the last time we ever do this.</p>
       <!-- LATEST-POST:END -->
       <a class="context-link" href="/updates/">All updates →</a>
     </div>
@@ -1323,5 +1323,14 @@ interestForm.addEventListener("submit", async (e) => {
 });
 </script>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script>
+// /?volunteer=1#signup (linked from Updates posts) arrives with the volunteer box pre-checked.
+try {
+  if (new URLSearchParams(location.search).has('volunteer')) {
+    const v = document.getElementById('volunteer');
+    if (v) v.checked = true;
+  }
+} catch (e) {}
+</script>
 </body>
 </html>
