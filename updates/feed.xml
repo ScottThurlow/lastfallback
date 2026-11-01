@@ -6,7 +6,15 @@
   <description>What we're doing and what we're learning as the Last Fall Back Act moves through the 2027 legislative session.</description>
   <language>en-us</language>
   <atom:link href="https://lastfallback.org/updates/feed.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 21 Aug 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 07:00:00 GMT</lastBuildDate>
+
+  <item>
+    <title>Today was not Washington's last clock change. The next fall back could be.</title>
+    <link>https://lastfallback.org/updates/the-next-one-could-be-the-last</link>
+    <guid isPermaLink="true">https://lastfallback.org/updates/the-next-one-could-be-the-last</guid>
+    <pubDate>Sun, 01 Nov 2026 07:00:00 GMT</pubDate>
+    <description>Washington fell back this morning. Western Canada did not. If the Legislature acts in 2027, November 7, 2027 is the last time we ever do this.</description>
+  </item>
 
   <item>
     <title>The Portland problem is real. Oregon has already voted on it twice.</title>
